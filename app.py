@@ -105,7 +105,7 @@ with st.sidebar:
     
     st.markdown(f"""
         <div class="branding">
-            <b>Created by: Wahidin</b><br>
+            <b>Created by: LPK NAOMI ABADI</b><br>
             <i>powered by GEMINI</i>
         </div>
     """, unsafe_allow_html=True)
@@ -138,7 +138,7 @@ if menu == "➕ Registrasi Baru":
 
 # --- MENU: DASHBOARD ---
 elif menu == "📊 Monitoring Progres":
-    st.markdown("### 📊 Dashboard Monitoring")
+    st.markdown("### 📊 CPMI LPK NAOMI ABADI")
     
     # Header Statistics
     m1, m2, m3, m4 = st.columns(4)
