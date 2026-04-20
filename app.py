@@ -67,7 +67,7 @@ try:
         df['Sponsor'] = "-"
 except FileNotFoundError:
     df = pd.DataFrame(columns=[
-        'Nama CPMI', 'Tanggal Daftar', 'PT Penempatan', 'Agency Luar Negeri', 
+        'Nama CPMI', 'Tanggal Daftar', 'Masuk LPK', 'PT Penempatan', 'Agency Luar Negeri', 
         'Negara Tujuan', 'ID SISKO', 'Paspor', 'Ujian Kompetensi', 
         'Psikotest', 'MCU Full', 'Kontrak Kerja', 'Visa Kerja', 'Status Terbang', 'Sponsor'
     ])
