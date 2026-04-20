@@ -5,7 +5,7 @@ from datetime import datetime
 # --- KONFIGURASI HALAMAN ---
 st.set_page_config(
     page_title="CPMI System - Dark Mode",
-    page_icon="🌙",
+    page_icon="🙋‍♀️",
     layout="wide"
 )
 
@@ -80,7 +80,7 @@ if not st.session_state["password_correct"]:
     c1, c2, c3 = st.columns([1,1.5,1])
     with c2:
         st.markdown("<br><br>", unsafe_allow_html=True)
-        st.markdown("## 🌙 Secure Login")
+        st.markdown("##🔒Login")
         pwd = st.text_input("Password Staf", type="password")
         if st.button("Masuk ke Sistem", use_container_width=True):
             if pwd == "admin123":
@@ -92,7 +92,7 @@ if not st.session_state["password_correct"]:
 
 # --- SIDEBAR NAVIGASI ---
 with st.sidebar:
-    st.markdown("### 💎 CPMI Admin")
+    st.markdown("### 😎 Admin")
     st.markdown("`Night Mode Active` 🌙")
     st.divider()
     
